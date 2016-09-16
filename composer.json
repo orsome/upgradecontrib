@@ -1,0 +1,24 @@
+{
+    "name": "orsome/upgradecontrib",
+    "description": "Moodle upgrade contributed/third party modules.",
+    "keywords": ["Moodle"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Troy Williams",
+            "email": "maxorsomeness@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Orsome\\Installer\\Console\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "~3.0",
+        "symfony/process": "~3.0"
+    },
+    "bin": [
+        "moodizzle"
+    ]
+}

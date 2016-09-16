@@ -1,0 +1,27 @@
+#
+# See gitignore(5) man page for more details
+#
+/config.php
+*~
+*.swp
+/tags
+/TAGS
+/cscope.*
+/.patches/
+/.idea/
+/nbproject/
+CVS
+.DS_Store
+/.settings/
+/.project
+/.buildpath
+/.cache
+phpunit.xml
+composer.phar
+/vendor/
+/behat.yml
+*/yui/build/*/*-coverage.js
+/lib/yuilib/*/build/*/*-coverage.js
+/lib/yuilib/*/*/*-coverage.js
+atlassian-ide-plugin.xml
+/node_modules/
